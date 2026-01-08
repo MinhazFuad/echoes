@@ -70,7 +70,7 @@ We intentionally selected the following Wonders because they naturally align wit
 
 ## What We Are Building
 
-Silent Signals is a **visual emotion engine**, not a traditional social media platform.
+This platform is a **visual emotion engine**, not a traditional social media platform.
 
 Users can:
 - Enter the experience through emotion
@@ -137,7 +137,7 @@ Client (Next.js UI)
 
 - **Next.js** (App Router)
 - **Prisma**
-- **PostgreSQL / SQLite**
+- **MySQL**
 - **Authentication (Credentials‑based)**
 - **Cloud Image Storage**
 - **GitHub Projects (Kanban)**
