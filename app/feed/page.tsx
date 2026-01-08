@@ -133,9 +133,10 @@ function FeedContent() {
 
   const getAmbientColor = () => {
     switch (emotionParam) {
-      case "laugh": return "bg-gradient-to-b from-[#1a1500] to-black"; 
-      case "sad": return "bg-gradient-to-b from-[#0a1520] to-black"; 
-      case "love": return "bg-gradient-to-b from-[#1a0505] to-black"; 
+      // UPDATED: High Intensity Gradients
+      case "laugh": return "bg-gradient-to-br from-[#FFD700] via-[#FFA500] to-[#5C3A00]"; 
+      case "sad":   return "bg-gradient-to-br from-[#2C5364] via-[#243B55] to-[#0F2027]"; 
+      case "love":  return "bg-gradient-to-br from-[#FF5F6D] via-[#D31027] to-[#4A0404]"; 
       default: return "bg-black";
     }
   };
