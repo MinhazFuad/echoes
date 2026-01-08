@@ -1,3 +1,4 @@
+// Gemini/app/page.tsx
 "use client";
 
 import { useState, useEffect } from "react";
@@ -162,6 +163,9 @@ export default function LandingPage() {
           const Icon = emotion.icon;
           const hoverAnim = !selected ? emotion.animation : {};
 
+          // Helper to prefix all gradient classes with 'group-hover:'
+          const hoverGradient = emotion.color.split(" ").map(c => `group-hover:${c}`).join(" ");
+
           return (
             <motion.button
               key={key}
@@ -173,8 +177,13 @@ export default function LandingPage() {
               <div
                 className={clsx(
                   "flex h-24 w-24 items-center justify-center rounded-full border-2 transition-all duration-500 sm:h-32 sm:w-32",
+                  // Base State (Glassy)
                   "border-white/10 bg-white/5 text-white/40 backdrop-blur-sm",
-                  "group-hover:border-white/90 group-hover:text-white group-hover:bg-white/10 group-hover:shadow-[0_0_50px_rgba(255,255,255,0.4)]"
+                  
+                  // Hover State (Vibrant)
+                  "group-hover:bg-gradient-to-br",
+                  hoverGradient,
+                  "group-hover:border-transparent group-hover:text-white group-hover:shadow-[0_0_50px_rgba(255,255,255,0.4)]"
                 )}
               >
                 <Icon
