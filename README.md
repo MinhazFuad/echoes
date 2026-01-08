@@ -1,4 +1,4 @@
-# Echoes
+# Echoes | Team Prisma | Category 3
 
 A non‑verbal, emotion‑driven visual platform where meaning is **felt**, not read.
 
