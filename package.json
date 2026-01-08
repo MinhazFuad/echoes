@@ -12,7 +12,9 @@
   "dependencies": {
     "@prisma/adapter-mariadb": "^7.2.0",
     "@prisma/client": "^6.19.1",
+    "bcryptjs": "^3.0.3",
     "dotenv": "^17.2.3",
+    "jsonwebtoken": "^9.0.3",
     "next": "16.1.1",
     "prisma": "^6.19.1",
     "react": "19.2.3",
@@ -20,6 +22,7 @@
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
+    "@types/jsonwebtoken": "^9.0.10",
     "@types/node": "^20.19.27",
     "@types/pg": "^8.16.0",
     "@types/react": "^19",
