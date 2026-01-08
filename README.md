@@ -147,6 +147,3 @@ Client (Next.js UI)
 - **GitHub Projects (Kanban)**
 
 
-
-
-Example:
