@@ -6,6 +6,10 @@ Echoes explores how humans can communicate, discover, and personalize experience
 
 ---
 
+## Youtube Link: 
+In this video we explain how our platform works with voiceover and screen recording: 
+https://youtu.be/PJ57UolkTbA?si=Unmqc367uxle6J2H
+
 ## HackDay Theme — Chosen Wonders
 
 We intentionally selected the following Wonders because they naturally align with our goal of building a **silent emotional experience**.
